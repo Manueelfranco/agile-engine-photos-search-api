@@ -2,11 +2,11 @@
 
 This project is a C# Web API with a Background Worker that regularly pulls the AgileEngine photos and stores them in Memory Cache, so then they can be queried using the following endpoints:[
 
-* /api/images - Will retrieve the details of every photo stored in the memory cache
+* `/api/images` - Will retrieve the details of every photo stored in the memory cache
 
-* /api/images/{imageID} - Will retrieve the details of the photo that matches with the ID sent in the URL
+* `/api/images/{imageID}` - Will retrieve the details of the photo that matches with the ID sent in the URL
 
-* /api/search/?author={author}&camera={camera}&tags={tags} - Will retrieve the details of the photos that match with the querystring parameters. They are all optional, and while **author** and **camera** need to be an exact match, you can introduce multiple **tags** separated by a blank space and the API will retrieve the details of every photo that contains all of the tags you shared. For example: `/api/search?tags=%23photo%20%23today`.
+* `/api/search/?author={author}&camera={camera}&tags={tags}` - Will retrieve the details of the photos that match with the querystring parameters. They are all optional, and while **author** and **camera** need to be an exact match, you can introduce multiple **tags** separated by a blank space and the API will retrieve the details of every photo that contains all of the tags you shared. For example: `/api/search?tags=%23photo%20%23today`.
 
 ## The Background Worker
 

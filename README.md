@@ -1,6 +1,6 @@
 # AgileEngine Photos Search API
 
-This project is a C# Web API with a Background Worker that regularly pulls the AgileEngine photos and stores them in Memory Cache, so then they can be queried using the following endpoints:[
+This project is a C# Web API with a Background Worker that regularly pulls the AgileEngine photos and stores them in Memory Cache, so then they can be queried using the following endpoints:
 
 * `/api/images` - Will retrieve the details of every photo stored in the memory cache
 
